@@ -66,7 +66,6 @@ defmodule Stripe.Mixfile do
       {:inch_ex, "~> 2.0", only: [:dev, :test]},
       {:mox, "~> 0.4", only: :test},
       {:jason, "~> 1.1"},
-      {:telemetry, "~> 1.1"},
       {:uri_query, "~> 0.1.2"},
       {:exexec, "~> 0.1.0", only: :test},
       {:plug, "~> 1.14", optional: true}
